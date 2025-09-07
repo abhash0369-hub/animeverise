@@ -1,0 +1,10 @@
+
+body { background:#0f0f1a; color:#fff; font-family:sans-serif; margin:0; }
+header { background:#1b1b2f; padding:10px; text-align:center; }
+nav a { margin:0 10px; color:#ff0066; text-decoration:none; }
+.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:20px; }
+.category-pill { background: linear-gradient(90deg,#222033,#2a2340); padding:8px 12px; border-radius:18px; border:1px solid #2b2b44; cursor:pointer; }
+.category-pill:hover { box-shadow:0 6px 18px rgba(255,0,102,0.12); transform:translateY(-3px); }
+.dlbtn { display:inline-block; margin-right:8px; padding:6px 8px; background:#222; color:#fff; border-radius:6px; text-decoration:none; }
+.btn { display:inline-block; padding:8px 10px; background:#ff0066; color:#fff; border-radius:8px; text-decoration:none; }
+.muted { color:#999 }

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AnimeVerse - Admin</title>
+  <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+  <header><h1>Admin Panel</h1></header>
+  <main style="padding:16px;max-width:900px;margin:0 auto">
+    <section id="login-section">
+      <h2>Login</h2>
+      <form id="login-form">
+        <input id="username" placeholder="username" required>
+        <input id="password" type="password" placeholder="password" required>
+        <button>Login</button>
+      </form>
+    </section>
+    <section id="admin-area" style="display:none">
+      <h2>Add Anime</h2>
+      <form id="add-form">
+        <input id="title" placeholder="Title" required>
+        <input id="image" placeholder="Image URL">
+        <input id="year" placeholder="Year">
+        <input id="status" placeholder="Status">
+        <input id="badge" placeholder="Badge (NEW/TRENDING)">
+        <input id="genres" placeholder="Genres (comma separated)">
+        <textarea id="description" placeholder="Synopsis"></textarea>
+        <input id="watch1" placeholder="Watch server 1 (embed url)">
+        <input id="watch2" placeholder="Watch server 2 (optional)">
+        <input id="d480" placeholder="480p download (url|size)">
+        <input id="d720" placeholder="720p download (url|size)">
+        <input id="d1080" placeholder="1080p download (url|size)">
+        <input id="trailer" placeholder="Trailer embed (youtube embed url)">
+        <div id="episodes-builder"></div>
+        <button id="add-ep-btn" type="button">Add Episode Row</button>
+        <button type="submit">Save Anime</button>
+      </form>
+      <hr>
+      <h2>Existing Anime</h2>
+      <div id="anime-list"></div>
+    </section>
+  </main>
+  <script src="js/admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1,
+    "title": "Naruto Shippuden",
+    "image": "assets/images/naruto.jpg",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "year": "2007",
+    "status": "Completed",
+    "badge": "TRENDING",
+    "description": "Naruto Uzumaki continues his ninja journey.",
+    "watch": [
+      "https://www.youtube.com/embed/J8iJbt_J0R0",
+      ""
+    ],
+    "downloads": {
+      "480p": {
+        "url": "assets/videos/naruto-480.mp4",
+        "size": "250MB"
+      },
+      "720p": {
+        "url": "assets/videos/naruto-720.mp4",
+        "size": "550MB"
+      }
+    },
+    "trailer": "https://www.youtube.com/embed/J8iJbt_J0R0",
+    "episodes": [
+      {
+        "ep": 1,
+        "title": "Homecoming",
+        "watch": "https://www.youtube.com/embed/J8iJbt_J0R0",
+        "downloads": {
+          "480p": {
+            "url": "assets/videos/ep1-480.mp4",
+            "size": "250MB"
+          }
+        }
+      },
+      {
+        "ep": 2,
+        "title": "Akatsuki Appears",
+        "watch": "https://www.youtube.com/embed/J8iJbt_J0R0",
+        "downloads": {
+          "720p": {
+            "url": "assets/videos/ep2-720.mp4",
+            "size": "500MB"
+          }
+        }
+      }
+    ],
+    "added": 1710000000000
+  },
+  {
+    "id": 2,
+    "title": "Death Note",
+    "image": "assets/images/deathnote.jpg",
+    "genres": [
+      "Thriller",
+      "Mystery"
+    ],
+    "year": "2006",
+    "status": "Completed",
+    "badge": "NEW",
+    "description": "A notebook of death falls into the hands of a genius student.",
+    "watch": [
+      "https://www.youtube.com/embed/tJZtOrm-WPk",
+      ""
+    ],
+    "downloads": {
+      "480p": {
+        "url": "assets/videos/dn-480.mp4",
+        "size": "200MB"
+      },
+      "720p": {
+        "url": "assets/videos/dn-720.mp4",
+        "size": "450MB"
+      }
+    },
+    "trailer": "",
+    "episodes": [
+      {
+        "ep": 1,
+        "title": "Rebirth",
+        "watch": "https://www.youtube.com/embed/tJZtOrm-WPk",
+        "downloads": {
+          "720p": {
+            "url": "assets/videos/dn-ep1-720.mp4",
+            "size": "450MB"
+          }
+        }
+      }
+    ],
+    "added": 1710050000000
+  }
+]
